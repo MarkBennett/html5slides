@@ -603,7 +603,10 @@ article.smaller q::after {
 }
 
 /* Custom styles */
-section { /* body content */
-	top: 150px;
-	left: 100px;
+aside.centered { /* body content */
+	top: 200px;
+	font-size: 24px;
+	text-align: center;
+	position: absolute;
+	width: 800px;
 }
