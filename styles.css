@@ -149,6 +149,7 @@ body {
 }
 
 .slides.template-default article.headshot {
+	background-color: #f4ebf2 !important;
   background: white url(images/headshot.png) 100% 100% no-repeat;
 }
 
