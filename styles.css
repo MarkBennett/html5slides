@@ -148,6 +148,18 @@ body {
   background: white url(images/google-logo.png) 50% 50% no-repeat;
 }
 
+.slides.template-default article.headshot {
+  background: white url(images/headshot.png) 100% 100% no-repeat;
+}
+
+.slides.template-default article.puzzle-pieces {
+  background: white url(images/puzzle-pieces.jpg) 100% 100% no-repeat;
+}
+
+.slides.template-default article.mona-lisa {
+  background: white url(images/mona-lisa.jpg) 100% 100% no-repeat;
+}
+
 .slides.template-io2011 article.biglogo {
   background: white url(images/googleio-logo.png) 50% 50% no-repeat;
 
@@ -609,4 +621,11 @@ aside.centered { /* body content */
 	text-align: center;
 	position: absolute;
 	width: 800px;
+}
+
+h2 {
+	background: rgba(0, 54, 62, 0.8);
+	color: #f3f3f3;
+	left: 0;
+	padding: 15px 25px 15px 100px;
 }
