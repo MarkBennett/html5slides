@@ -97,8 +97,6 @@ body {
 }
 
 .slides.template-default > article:not(.nobackground):not(.biglogo) {
-  background: url(images/moz_logo.png) 710px 625px no-repeat; 
-  
   background-color: white;  
 }
 
@@ -602,4 +600,10 @@ article.smaller q::after {
 .prettyprint .dec, 
 .prettyprint .var { /* a declaration; a variable name */
   color: rgb(127, 0, 127);
-}  
+}
+
+/* Custom styles */
+section { /* body content */
+	top: 150px;
+	left: 100px;
+}
